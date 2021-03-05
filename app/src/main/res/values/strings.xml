@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">GoogleSearch</string>
+    <string name="search_edittext">Enter The Location Here</string>
+    <string name="search_button">Search</string>
+</resources>
