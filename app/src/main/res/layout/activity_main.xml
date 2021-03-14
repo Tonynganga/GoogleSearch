@@ -21,7 +21,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/editTlocation"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="100dp"
@@ -41,7 +41,7 @@
         android:id="@+id/buttonSeach"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="32dp"
         android:background="@drawable/btn_add_background"
         android:text="@string/search_button"
         android:textSize="18sp"
@@ -49,6 +49,6 @@
         app:backgroundTint="@color/button_background"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
+        app:layout_constraintTop_toBottomOf="@+id/editTlocation"
         app:layout_constraintWidth_percent=".6" />
 </androidx.constraintlayout.widget.ConstraintLayout>
